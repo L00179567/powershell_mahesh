@@ -1,0 +1,23 @@
+
+
+
+
+
+PS C:\Users\sai> $a=1,2,"sai","pavan"
+PS C:\Users\sai> $a
+$a = 1, 2, "a", "££"
+$a.GetType()
+PS C:\Users\sai> [int]$a = 1
+PS C:\Users\sai> $a = "123456789"
+
+
+
+
+
+
+
+
+
+
+
+

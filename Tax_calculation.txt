@@ -1,0 +1,11 @@
+#Tax calculation #
+
+ $NET = 111111
+$VAT_applicable = 0.16
+ $VATAMOUNT = $NET * $VAT_applicable
+ $GROSS = $NET + $VATAMOUNT
+$text = "The total $GROSS is the sum of the net value $amount with the VAT amount $VATAMOUNT at $VAT% VAT rate"
+ $text
+
+
+

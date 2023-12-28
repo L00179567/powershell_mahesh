@@ -1,0 +1,25 @@
+#Below are the commands for user related info
+
+Get-ADUser sai.pendyala -Properties *
+
+
+
+Get-ADUser sai.pendyala -Properties * | Select whenCreated, PasswordLastSet, LastLogonDate,
+AccountLockoutTime
+
+
+
+Search-ADAccount -LockedOut | select name
+
+
+
+Unlock-ADAccount –Identity sai.pendyala
+
+
+
+Disable-ADAccount -Identity sai.pendyala
+
+
+
+
+"true" } | Select

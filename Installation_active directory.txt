@@ -1,0 +1,5 @@
+#######Commands Tested for Ad Installations ############################################################
+
+install-windowsfeature ad-domain-services -includemanagementtools
+Test-ADDSForestInstallation -domainname sai.com
+Install-ADDSForest -domainname sai.com

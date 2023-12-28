@@ -1,0 +1,27 @@
+################ Do While Loop 
+
+$l_oop = 0 
+do
+{
+    “Starting Loop $l_oop”
+    $l_oop
+    $l_oop++
+    “Now `$l_oop is $l_oop”
+} until ($l_oop -ge 5)
+
+##### For Loop
+
+
+$a_array = "h", "a", "p", "p", "y"
+for each ($L in $MyArray)
+{
+    $L
+}
+
+#########while_loop
+
+while($a_loop -ne 5)
+{
+    $a_loop++
+    Write-Host $a_loop
+}

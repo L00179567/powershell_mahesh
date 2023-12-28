@@ -1,0 +1,4 @@
+# HelloLetterkenny.PSM1
+Function Get-HelloLetterkenny {
+ "Hello Letterkenny from Sai"
+}

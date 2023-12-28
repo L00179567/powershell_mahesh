@@ -1,0 +1,35 @@
+
+
+##Upper to lower##
+ $a_str = "Yoo hoo!"
+ $a_str.ToUpper()
+
+ $a_str.ToLower()
+
+
+
+
+ $a_arrays = 1,2,3,4,5
+ $a_arrays[1]
+
+
+
+ $L_Nos = 9999
+ $L_Nos.GetType()
+
+
+
+ $B_nos = 98694689980089
+ $B_nos.GetType()
+
+
+
+[float]$Floaty32 = 24.12
+ $Floaty32.GetType()
+
+
+
+ $Floaty64 = 98694.9999
+$Floaty64.GetType()
+
+
